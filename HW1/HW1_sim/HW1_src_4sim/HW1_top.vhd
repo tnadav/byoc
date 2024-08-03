@@ -130,8 +130,8 @@ manual_CK <= pushbutton;-- manual CK comes from pushbutton
 			
    DIGIT_No_Decoder	:	decoder_3to8
 		port map(
-			in_no => anodes_out,
-			out_lines => digit_no );
+			in_no => digit_no,
+			out_lines => anodes_out );
 
 
 end  Behavioral;
