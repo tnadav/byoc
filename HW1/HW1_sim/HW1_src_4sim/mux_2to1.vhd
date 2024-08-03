@@ -19,7 +19,7 @@ architecture Behavioral of mux_2to1 is
 begin
 	with sel  select 
 		out_y  <=
-		in0 when 'o',
+		in0 when '0',
 		in1 when others;
 
 end Behavioral;
