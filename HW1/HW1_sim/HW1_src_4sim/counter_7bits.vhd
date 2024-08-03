@@ -20,7 +20,7 @@ signal cntr: STD_LOGIC_VECTOR(6 downto 0);
 	begin
 		process(CK_in, clr)
 		begin
-			if clr = "1" then
+			if clr = '1' then
 				cntr <= b"000000";
 			elsif CK_in 'event and CK_in = '1' then
 				cntr <= cntr + 1;
