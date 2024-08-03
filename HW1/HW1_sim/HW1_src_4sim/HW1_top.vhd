@@ -118,8 +118,8 @@ manual_CK <= pushbutton;-- manual CK comes from pushbutton
 		port map(
 			CK_in => cntr_CK,
 			clr	  => reset,
-			cntr_out(4 downto 0) => digit_val,
-			cntr_out(7 downto 5) => digit_no );
+			cntr_out(3 downto 0) => digit_val,
+			cntr_out(6 downto 4) => digit_no );
 
 	
 	Digit_Decoder	:	decoder_7seg
