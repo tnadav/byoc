@@ -19,11 +19,11 @@ begin
 	with in_no  select 
 		out_lines  <=
 		"11111110"  when  b"000",
-		"11111011"  when  b"001",
+		"11111101"  when  b"001",
 		"11111011"  when  b"010",
 		"11110111"  when  b"011",
 		"11101111"  when  b"100",
-		"10111111"  when  b"101",
+		"11011111"  when  b"101",
 		"10111111"  when  b"110",
 		"01111111"  when  others;
 
