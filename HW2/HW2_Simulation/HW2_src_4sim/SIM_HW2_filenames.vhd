@@ -22,8 +22,8 @@ use IEEE.NUMERIC_STD.all;
 
 
 --for Nexys4 Simulation
-constant	program_in_file_name 	: string := "H:\Vivado_2024\tests\HW2_vivado\HW2_simulation\HW2_src_4sim\SIM_HW2_program.dat";
-constant	data_in_file_name 		: string := "H:\Vivado_2024\tests\HW2_vivado\HW2_simulation\HW2_src_4sim\SIM_HW2_TB_data.dat";
+constant	program_in_file_name 	: string := "C:\Users\frida\byoc\HW2\HW2_simulation\HW2_src_4sim\SIM_HW2_program.dat";
+constant	data_in_file_name 		: string := "C:\Users\frida\byoc\HW2\HW2_simulation\HW2_src_4sim\SIM_HW2_TB_data.dat";
 
 
 

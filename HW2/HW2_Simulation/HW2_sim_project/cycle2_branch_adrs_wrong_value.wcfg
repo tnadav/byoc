@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="BYOC_TB_for_students_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="BYOC_TB_for_students" />
+            <top_module name="byoc_filenames" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="70.201 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="99" />
+   <wvobject fp_name="/BYOC_TB_for_students/TB_CK" type="logic">
+      <obj_property name="ElementShortName">TB_CK</obj_property>
+      <obj_property name="ObjectShortName">TB_CK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_CK_out" type="logic">
+      <obj_property name="ElementShortName">TB_CK_out</obj_property>
+      <obj_property name="ObjectShortName">TB_CK_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_RESET_out" type="logic">
+      <obj_property name="ElementShortName">TB_RESET_out</obj_property>
+      <obj_property name="ObjectShortName">TB_RESET_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_HOLD_out" type="logic">
+      <obj_property name="ElementShortName">TB_HOLD_out</obj_property>
+      <obj_property name="ObjectShortName">TB_HOLD_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_RS232_Tx" type="logic">
+      <obj_property name="ElementShortName">TB_RS232_Tx</obj_property>
+      <obj_property name="ObjectShortName">TB_RS232_Tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk0" type="array">
+      <obj_property name="ElementShortName">TB_rdbk0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk1" type="array">
+      <obj_property name="ElementShortName">TB_rdbk1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk2" type="array">
+      <obj_property name="ElementShortName">TB_rdbk2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk3" type="array">
+      <obj_property name="ElementShortName">TB_rdbk3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk4" type="array">
+      <obj_property name="ElementShortName">TB_rdbk4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk5" type="array">
+      <obj_property name="ElementShortName">TB_rdbk5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk6" type="array">
+      <obj_property name="ElementShortName">TB_rdbk6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk7" type="array">
+      <obj_property name="ElementShortName">TB_rdbk7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk8" type="array">
+      <obj_property name="ElementShortName">TB_rdbk8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk8[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk9" type="array">
+      <obj_property name="ElementShortName">TB_rdbk9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk9[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk10" type="array">
+      <obj_property name="ElementShortName">TB_rdbk10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk10[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk11" type="array">
+      <obj_property name="ElementShortName">TB_rdbk11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk11[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk12" type="array">
+      <obj_property name="ElementShortName">TB_rdbk12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk12[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk13" type="array">
+      <obj_property name="ElementShortName">TB_rdbk13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk13[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk14" type="array">
+      <obj_property name="ElementShortName">TB_rdbk14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk14[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/TB_rdbk15" type="array">
+      <obj_property name="ElementShortName">TB_rdbk15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rdbk15[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/i" type="other">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/ck_no_expected_val" type="other">
+      <obj_property name="ElementShortName">ck_no_expected_val</obj_property>
+      <obj_property name="ObjectShortName">ck_no_expected_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/temp" type="array">
+      <obj_property name="ElementShortName">temp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value0" type="array">
+      <obj_property name="ElementShortName">expected_value0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value1" type="array">
+      <obj_property name="ElementShortName">expected_value1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value2" type="array">
+      <obj_property name="ElementShortName">expected_value2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value3" type="array">
+      <obj_property name="ElementShortName">expected_value3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value4" type="array">
+      <obj_property name="ElementShortName">expected_value4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value5" type="array">
+      <obj_property name="ElementShortName">expected_value5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value6" type="array">
+      <obj_property name="ElementShortName">expected_value6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value7" type="array">
+      <obj_property name="ElementShortName">expected_value7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value8" type="array">
+      <obj_property name="ElementShortName">expected_value8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value8[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value9" type="array">
+      <obj_property name="ElementShortName">expected_value9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value9[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value10" type="array">
+      <obj_property name="ElementShortName">expected_value10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value10[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value11" type="array">
+      <obj_property name="ElementShortName">expected_value11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value11[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value12" type="array">
+      <obj_property name="ElementShortName">expected_value12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value12[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value13" type="array">
+      <obj_property name="ElementShortName">expected_value13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value13[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value14" type="array">
+      <obj_property name="ElementShortName">expected_value14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value14[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/expected_value15" type="array">
+      <obj_property name="ElementShortName">expected_value15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_value15[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/err_cntr" type="other">
+      <obj_property name="ElementShortName">err_cntr</obj_property>
+      <obj_property name="ObjectShortName">err_cntr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/CK_25MHz" type="logic">
+      <obj_property name="ElementShortName">CK_25MHz</obj_property>
+      <obj_property name="ObjectShortName">CK_25MHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/RESET_in" type="logic">
+      <obj_property name="ElementShortName">RESET_in</obj_property>
+      <obj_property name="ObjectShortName">RESET_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/HOLD_in" type="logic">
+      <obj_property name="ElementShortName">HOLD_in</obj_property>
+      <obj_property name="ObjectShortName">HOLD_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/MIPS_IMem_adrs" type="array">
+      <obj_property name="ElementShortName">MIPS_IMem_adrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MIPS_IMem_adrs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/MIPS_IMem_rd_data" type="array">
+      <obj_property name="ElementShortName">MIPS_IMem_rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MIPS_IMem_rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/CK" type="logic">
+      <obj_property name="ElementShortName">CK</obj_property>
+      <obj_property name="ObjectShortName">CK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/HOLD" type="logic">
+      <obj_property name="ElementShortName">HOLD</obj_property>
+      <obj_property name="ObjectShortName">HOLD</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider179">
+      <obj_property name="label">Debugging values below here</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/IMem_adrs" type="array">
+      <obj_property name="ElementShortName">IMem_adrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMem_adrs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/IMem_rd_data" type="array">
+      <obj_property name="ElementShortName">IMem_rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMem_rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/imm" type="array">
+      <obj_property name="ElementShortName">imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/sext_imm" type="array">
+      <obj_property name="ElementShortName">sext_imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sext_imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/branch_adrs" type="array">
+      <obj_property name="ElementShortName">branch_adrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_adrs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/PC_plus_4" type="array">
+      <obj_property name="ElementShortName">PC_plus_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_plus_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/PC_plus_4_pID" type="array">
+      <obj_property name="ElementShortName">PC_plus_4_pID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_plus_4_pID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/PC_reg" type="array">
+      <obj_property name="ElementShortName">PC_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider278">
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/CK_25MHz" type="logic">
+      <obj_property name="ElementShortName">CK_25MHz</obj_property>
+      <obj_property name="ObjectShortName">CK_25MHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/RESET_in" type="logic">
+      <obj_property name="ElementShortName">RESET_in</obj_property>
+      <obj_property name="ObjectShortName">RESET_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/HOLD_in" type="logic">
+      <obj_property name="ElementShortName">HOLD_in</obj_property>
+      <obj_property name="ObjectShortName">HOLD_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/MIPS_IMem_adrs" type="array">
+      <obj_property name="ElementShortName">MIPS_IMem_adrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MIPS_IMem_adrs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/MIPS_IMem_rd_data" type="array">
+      <obj_property name="ElementShortName">MIPS_IMem_rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MIPS_IMem_rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk0" type="array">
+      <obj_property name="ElementShortName">rdbk0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk1" type="array">
+      <obj_property name="ElementShortName">rdbk1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk2" type="array">
+      <obj_property name="ElementShortName">rdbk2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk3" type="array">
+      <obj_property name="ElementShortName">rdbk3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk4" type="array">
+      <obj_property name="ElementShortName">rdbk4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk5" type="array">
+      <obj_property name="ElementShortName">rdbk5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk6" type="array">
+      <obj_property name="ElementShortName">rdbk6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk7" type="array">
+      <obj_property name="ElementShortName">rdbk7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk8" type="array">
+      <obj_property name="ElementShortName">rdbk8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk8[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk9" type="array">
+      <obj_property name="ElementShortName">rdbk9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk9[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk10" type="array">
+      <obj_property name="ElementShortName">rdbk10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk10[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk11" type="array">
+      <obj_property name="ElementShortName">rdbk11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk11[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk12" type="array">
+      <obj_property name="ElementShortName">rdbk12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk12[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk13" type="array">
+      <obj_property name="ElementShortName">rdbk13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk13[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk14" type="array">
+      <obj_property name="ElementShortName">rdbk14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk14[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk15" type="array">
+      <obj_property name="ElementShortName">rdbk15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk15[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/CK" type="logic">
+      <obj_property name="ElementShortName">CK</obj_property>
+      <obj_property name="ObjectShortName">CK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/HOLD" type="logic">
+      <obj_property name="ElementShortName">HOLD</obj_property>
+      <obj_property name="ObjectShortName">HOLD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/IMem_adrs" type="array">
+      <obj_property name="ElementShortName">IMem_adrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMem_adrs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/IMem_rd_data" type="array">
+      <obj_property name="ElementShortName">IMem_rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMem_rd_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/IR_reg" type="array">
+      <obj_property name="ElementShortName">IR_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/imm" type="array">
+      <obj_property name="ElementShortName">imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/sext_imm" type="array">
+      <obj_property name="ElementShortName">sext_imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sext_imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/funct" type="array">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/PC_reg" type="array">
+      <obj_property name="ElementShortName">PC_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/PC_Source" type="array">
+      <obj_property name="ElementShortName">PC_Source[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Source[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/jump_adrs" type="array">
+      <obj_property name="ElementShortName">jump_adrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jump_adrs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/branch_adrs" type="array">
+      <obj_property name="ElementShortName">branch_adrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_adrs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/jr_adrs" type="array">
+      <obj_property name="ElementShortName">jr_adrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jr_adrs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/PC_mux_out" type="array">
+      <obj_property name="ElementShortName">PC_mux_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_mux_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/PC_plus_4_pID" type="array">
+      <obj_property name="ElementShortName">PC_plus_4_pID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_plus_4_pID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk_vec1" type="array">
+      <obj_property name="ElementShortName">rdbk_vec1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk_vec1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/rdbk_vec2" type="array">
+      <obj_property name="ElementShortName">rdbk_vec2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdbk_vec2[31:0]</obj_property>
+   </wvobject>
+</wave_config>
