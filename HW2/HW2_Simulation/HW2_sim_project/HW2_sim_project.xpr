@@ -149,6 +149,11 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PPRDIR/sim_report_signals.wcfg">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="BYOC_TB_for_students"/>
@@ -164,6 +169,7 @@
         <Option Name="SrcSet" Val="sources_1"/>
         <Option Name="XSimWcfgFile" Val="$PPRDIR/cycle2_branch_adrs_wrong_value.wcfg"/>
         <Option Name="XSimWcfgFile" Val="$PPRDIR/cycle7_pc_source_wrong_value.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/sim_report_signals.wcfg"/>
       </Config>
     </FileSet>
     <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">

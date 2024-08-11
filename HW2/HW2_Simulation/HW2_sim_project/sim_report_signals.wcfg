@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="BYOC_TB_for_students_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="BYOC_TB_for_students" />
+            <top_module name="byoc_filenames" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="686.390 ns"></ZoomStartTime>
+      <ZoomEndTime time="844.303 ns"></ZoomEndTime>
+      <Cursor1Time time="864.041 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="107"></NameColumnWidth>
+      <ValueColumnWidth column_width="94"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/CK" type="logic">
+      <obj_property name="ElementShortName">CK</obj_property>
+      <obj_property name="ObjectShortName">CK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/PC_reg" type="array">
+      <obj_property name="ElementShortName">PC_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/PC_plus_4" type="array">
+      <obj_property name="ElementShortName">PC_plus_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_plus_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/branch_adrs" type="array">
+      <obj_property name="ElementShortName">branch_adrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_adrs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/jr_adrs" type="array">
+      <obj_property name="ElementShortName">jr_adrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jr_adrs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/PC_Source" type="array">
+      <obj_property name="ElementShortName">PC_Source[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Source[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/IR_reg" type="array">
+      <obj_property name="ElementShortName">IR_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/imm" type="array">
+      <obj_property name="ElementShortName">imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/sext_imm" type="array">
+      <obj_property name="ElementShortName">sext_imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sext_imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/BYOC_TB_for_students/Testing_BYOC_top/Fetch_unit_imp/HOLD" type="logic">
+      <obj_property name="ElementShortName">HOLD</obj_property>
+      <obj_property name="ObjectShortName">HOLD</obj_property>
+   </wvobject>
+</wave_config>
