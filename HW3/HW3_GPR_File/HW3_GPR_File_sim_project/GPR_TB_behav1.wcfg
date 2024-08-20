@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="GPR_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="GPR_TB" />
+            <top_module name="byoc_filenames" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="869.892 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,131.693 ns"></ZoomEndTime>
+      <Cursor1Time time="1,120.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="206"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wave_markers>
+      <marker time="920000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/GPR_TB/TB_CK" type="logic">
+      <obj_property name="ElementShortName">TB_CK</obj_property>
+      <obj_property name="ObjectShortName">TB_CK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/TB_rd_reg1" type="array">
+      <obj_property name="ElementShortName">TB_rd_reg1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rd_reg1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/TB_rd_reg2" type="array">
+      <obj_property name="ElementShortName">TB_rd_reg2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rd_reg2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/TB_wr_reg" type="array">
+      <obj_property name="ElementShortName">TB_wr_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_wr_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/TB_wr_data" type="array">
+      <obj_property name="ElementShortName">TB_wr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_wr_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/TB_Reg_Write" type="logic">
+      <obj_property name="ElementShortName">TB_Reg_Write</obj_property>
+      <obj_property name="ObjectShortName">TB_Reg_Write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/TB_GPR_hold" type="logic">
+      <obj_property name="ElementShortName">TB_GPR_hold</obj_property>
+      <obj_property name="ObjectShortName">TB_GPR_hold</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/TB_rd_data1" type="array">
+      <obj_property name="ElementShortName">TB_rd_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rd_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/TB_rd_data2" type="array">
+      <obj_property name="ElementShortName">TB_rd_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_rd_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/i" type="other">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/err_cntr" type="other">
+      <obj_property name="ElementShortName">err_cntr</obj_property>
+      <obj_property name="ObjectShortName">err_cntr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/ck_no_expected_val" type="other">
+      <obj_property name="ElementShortName">ck_no_expected_val</obj_property>
+      <obj_property name="ObjectShortName">ck_no_expected_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/expected_rd_data1" type="array">
+      <obj_property name="ElementShortName">expected_rd_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_rd_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/expected_rd_data2" type="array">
+      <obj_property name="ElementShortName">expected_rd_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_rd_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/GPR_TB/temp" type="array">
+      <obj_property name="ElementShortName">temp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[1:0]</obj_property>
+   </wvobject>
+</wave_config>
