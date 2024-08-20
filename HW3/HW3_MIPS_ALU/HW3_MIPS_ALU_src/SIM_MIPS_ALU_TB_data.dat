@@ -1,0 +1,28 @@
+CK     ALUop   Funct        A_in     ALUsrcB       B_in          sext_imm          ALU_out
+1        0      42      x"00000001"     0      x"00000002"      x"00000000"      x"00000003"  -add
+2        1      42      x"00000001"     0      x"00000002"      x"00000000"      x"FFFFFFFF"  -sub
+3        1      42      x"22222222"     0      x"12345678"      x"00000000"      x"0FEDCBAA"  -sub
+4        1      42      x"00003333"     1      x"12345678"      x"00001111"      x"00002222"  -sub
+5        2      32      x"AAAAAAAA"     0      x"55555555"      x"00001111"      x"FFFFFFFF"  -funct add
+6        2      32      x"AAAAAAAA"     0      x"56666666"      x"00001111"      x"01111110"  -funct add
+7        2      32      x"12345678"     0      x"12345678"      x"11111111"      x"2468ACF0"  -funct add
+8        2      34      x"2468ACF0"     0      x"12345678"      x"11111111"      x"12345678"  -funct sub
+9        2      34      x"12345678"     0      x"2468ACF0"      x"11111111"      x"EDCBA988"  -funct sub 
+10        2      36      x"12345678"     0      x"2468ACF0"      x"11111111"      x"00200470"  -funct and 
+11        2      36      x"12345678"     1      x"2468ACF0"      x"FFFF0000"      x"12340000"  -funct and 
+12        2      36      x"12345678"     1      x"2468ACF0"      x"0000FFFF"      x"00005678"  -funct and
+13        2      37      x"12345678"     0      x"2468ACF0"      x"11111111"      x"367CFEF8"  -funct or 
+14        2      37      x"12345678"     1      x"2468ACF0"      x"FFFF0000"      x"FFFF5678"  -funct or 
+15        2      37      x"12345678"     1      x"2468ACF0"      x"0000FFFF"      x"1234FFFF"  -funct or
+16        2      38      x"12345678"     0      x"2468ACF0"      x"11111111"      x"365CFA88"  -funct xor 
+17        2      38      x"12345678"     1      x"2468ACF0"      x"FFFF0000"      x"EDCB5678"  -funct xor 
+18        2      38      x"12345678"     1      x"2468ACF0"      x"0000FFFF"      x"1234A987"  -funct xor
+19        2      42      x"12345678"     0      x"2468ACF0"      x"11111111"      x"00000001"  -funct slt 
+20        2      42      x"12345678"     0      x"12345678"      x"FFFF0000"      x"00000000"  -funct slt 
+21        2      42      x"12345678"     0      x"01234567"      x"0000FFFF"      x"00000000"  -funct slt
+22        2      42      x"82345678"     0      x"82345678"      x"0000FFFF"      x"00000000"  -funct slt
+23        2      42      x"82345678"     0      x"92345678"      x"0000FFFF"      x"00000001"  -funct slt
+24        2      42      x"82345678"     0      x"12345678"      x"0000FFFF"      x"00000001"  -funct slt
+25        2      42      x"12345678"     0      x"82345678"      x"0000FFFF"      x"00000000"  -funct slt
+26        0      42      x"7FFFFFFF"     0      x"7FFFFFFF"      x"0000FFFF"      x"FFFFFFFE"  -add
+27        0      42      x"FFFFFFFE"     0      x"00000005"      x"0000FFFF"      x"00000003"  -add
