@@ -34,6 +34,10 @@ shared variable  Memory_array : Memory_Type := (others => (others =>'0')); -- re
 
 BEGIN
 
+-- Memory_wrdata: Handles writing data to the General Purpose Register (GPR) file.
+-- This process is triggered on the rising edge of the write clock (wr_clk).
+-- If the write enable signal (wr_en) is high, the data (wr_data) is written to
+-- the memory array at the specified write address (wr_address).
 Memory_wrdata: PROCESS (wr_clk)
 begin 
   if wr_clk'event and wr_clk = '1' then
@@ -43,6 +47,9 @@ begin
   end if;
 end process Memory_wrdata;
 
+-- Memory_rddata: Handles reading data from the General Purpose Register (GPR) file.
+-- This process is triggered whenever there is a change in the read addresses (rd1_address, rd2_address).
+-- The data from the specified addresses is output on the corresponding read data signals (rd1_data, rd2_data).
 Memory_rddata: PROCESS (rd1_address, rd2_address)
 begin
   rd1_data <= Memory_array(rd1_address);
